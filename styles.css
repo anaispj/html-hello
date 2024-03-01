@@ -1,0 +1,44 @@
+
+body {
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.post {
+    width: 500px;
+    margin: auto;
+    background-color: white;
+    margin: 20px auto;
+}
+.instagram-header{
+    margin: auto;
+    text-align: center;
+}
+
+.instagram-content{
+    background: #95929264;
+}
+
+img {
+    object-fit: contain;
+    width: 100%;
+}
+.post-header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    border: 1px solid rgba(128, 128, 128, 0.231);
+    padding: 0px 10px;
+}
+
+.post-header p:first-child {
+    font-weight: bold;
+}
+
+.post-header p:last-child {
+    color: grey;
+}
+.post-footer {
+    border: 1px solid rgba(128, 128, 128, 0.231);
+    padding: 0px 10px 10px;
+}
